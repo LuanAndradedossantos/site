@@ -1,0 +1,95 @@
+<!-- html:5 foi a versão usada para criar esse site-->
+<!-- Definição dizendo que é um arquivo html-->
+<!DOCTYPE html>
+<!-- Linguagem da pagina-->
+<html lang="pt-br">
+<!-- Cabeçalho oculto da pagina web-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title é titulo que aparece na aba do site-->
+    <title>Luan</title>
+</head>
+<!-- body é o corpo da pagina-->
+
+<body>
+    <!-- header é o cabeçalho visual da pagina-->
+    <header>
+        <!-- h1 é o titulo com a fonte maior, titulo do corpo da pg-->
+        <h1>luan-santos</h1>
+        <nav> <!-- nav é Seção de nacegação do site -->
+            <ul> <!-- ul é a lista não ordenada para links do nosso menu-->
+                <!-- li é os topicos da lista não ordenada-->
+                <li><a href="#sobre">sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">contatos</a></li>
+                <!-- para links externos não precisa usar a '#', somente para links internos com id
+                 target serve para que o link externo seja aberto em uma nova aba-->
+                <li><a href="https://google.com.br/" target="_blank">google</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- id é uma referencia, titulo, identificador serve para saber cada seção
+  -->
+    <section id="sobre">
+        <!-- h2 é a fonte com titulo menor -->
+        <h2>Sobre mim</h2>
+        <!--img para adicionar iamgens a pagina.    src é o caminho da imagem
+alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt.  title é o titulo da iamgem que aparece ao passar o cursor sobre a imagem-->
+        <img src="3588.jpg" title="Imagem de perfil" alt="Imagem de foto de perfil">
+        <!-- article ´é a teg que é usada para criar um texto-->
+        <article>
+            <!-- tag 'p' é é um paragrafo criado -->
+            <p>
+                Olá eu sou o Luan topzinho sou um dev web
+            </p>
+
+        </article>
+        <!-- aside é um á parte-->
+        <aside>
+            <!-- h3 é um titulo com a fonte pequena-->
+            <h3>habilidades</h3>
+
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+
+        </aside>
+
+    </section>
+
+    <section id="projetos">
+
+        <h2>projetos</h2>
+
+        <article>
+            <h3>Portifólio</h3>
+
+            <p>
+                este foi o primeiro site que desenvolvi estudando front end
+            </p>
+        </article>
+    </section>
+    <!-- é o roda pé da pagina-->
+    <footer></footer>
+    <p>Direitos reservados a luan santos</p>
+
+    <section id="contato">
+
+        <h2>contato</h2>
+
+        <p>Tem um projeto em mente entre em conytato</p>
+        <!-- a tag address serve para colocar os contatos-->
+        <address>
+            <!-- a teg 'a' serve para redirecionamento..     br é uma quebra de linha-->
+            email: <a href="mailto:joao@hgju.com">joao@hgju.com</a> <br>
+            tel: <a href="tel987654">987654</a>
+        </address>
+    </section>
+</body>
+
+</html>
