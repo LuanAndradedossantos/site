@@ -43,7 +43,7 @@ alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt
         <article>
             <!-- tag 'p' é é um paragrafo criado -->
             <p>
-                Olá eu sou o Luan topzinho sou um dev web  adicionado mais um texto
+                Olá eu sou o Luan topzinho sou um dev web adicionado mais um texto
             </p>
 
         </article>
@@ -74,6 +74,48 @@ alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt
             </p>
         </article>
     </section>
+
+    <section id="habilidades">
+
+        <h2>habilidades e tecnologias</h2>
+        <!-- table e a tabela onde vamos criar coisas dentro dela-->
+        <table>
+            <!-- é o cabeçalho da tabela e primeira linha-->
+            <thead>
+                <!-- tr significa uma linha-->
+                <tr>
+                    <!-- th são as colunas-->
+                    <th>tecnologia</th>
+                    <th>nivel</th>
+                    <th>descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- td são os valores das colunas-->
+                    <td>HTML</td>
+                    <td>iniciante</td>
+                    <td>Capaz de construir estruturas de paginas web semânticas responsivas.</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>intermediario</td>
+                    <td>experiencia com flexbox, grid e animações css.</td>
+                </tr>
+
+                <tr>
+                    <td>javascrip</td>
+                    <td>básico</td>
+                    <td>desenvolvimento de script do lado do cliente para interações.</td>
+
+
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     <!-- é o roda pé da pagina-->
     <footer></footer>
     <p>Direitos reservados a luan santos</p>
@@ -89,7 +131,7 @@ alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt
             <label for="nome">nome: </label>
             <!-- input é entrada de texto ou outros tipos mudando o valor do atributo (tesxt) -->
             <input type="text" id="nome" name="nome" required> <br>
-            
+
             <label for="email">email: </label>
             <!--required é a teg que obriga a preencher o campo selecionado-->
             <input type="email" id="email" name="email" required> <br>
@@ -107,20 +149,20 @@ alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt
             </select>
 
             <br>
-            <label for="mensagem">mensagem: </label> 
+            <label for="mensagem">mensagem: </label>
             <!-- textarea cria uma caixa para inserir texto em forma de mensagem na pagina.
              cols e rows são a quantidade de linhas e colunas-->
-            <textarea name="mensagem" id="mensagem" cols="36" rows="10" required ></textarea> <br>
+            <textarea name="mensagem" id="mensagem" cols="36" rows="10" required></textarea> <br>
             <!-- a input checkbox é a caixinha de seleção para alguma escolha feita pelo usuario-->
             <input type="checkbox" name="inscricao" id="inscricao">
             <label for="inscricao">deseja receber a minha latter?</label> <br>
-        
+
             <br>
             <!-- type submit adiciona um botão -->
             <input type="submit" value="enviar mensagem">
-            
+            <!-- adicionado data-->
             <input type="date">
-        
+
         </form>
         <!-- a tag address serve para colocar os contatos-->
         <address>
