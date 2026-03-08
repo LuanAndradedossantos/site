@@ -83,10 +83,49 @@ alt é a  alternativa caso de erro na imagem aparece a mensagem que está em alt
         <h2>contato</h2>
 
         <p>Tem um projeto em mente entre em conytato</p>
+        <!-- form é a tag de formulário serve para que o usuario escreva uma mensagem diretamente no site-->
+        <form action="">
+            <!-- label é o campo que fica ao lado do campo que vai ser digitado -->
+            <label for="nome">nome: </label>
+            <!-- input é entrada de texto ou outros tipos mudando o valor do atributo (tesxt) -->
+            <input type="text" id="nome" name="nome" required> <br>
+            
+            <label for="email">email: </label>
+            <!--required é a teg que obriga a preencher o campo selecionado-->
+            <input type="email" id="email" name="email" required> <br>
+
+            <label for="telefone">telefone: </label>
+            <input type="tel" id="telefone" name="telefone"> <br>
+
+            <label for="assunto">assunto: </label>
+            <!-- select é a tag de seleção para abrir a caixinha de opções -->
+            <select name="assunto" id="assunto">
+                <!-- option é a teg opções adicionados dentro do campo selection-->
+                <option value="orçamento">orçamento</option>
+                <option value="dúvi da">duvida</option>
+                <option value="outro">outro</option>
+            </select>
+
+            <br>
+            <label for="mensagem">mensagem: </label> 
+            <!-- textarea cria uma caixa para inserir texto em forma de mensagem na pagina.
+             cols e rows são a quantidade de linhas e colunas-->
+            <textarea name="mensagem" id="mensagem" cols="36" rows="10" required ></textarea> <br>
+            <!-- a input checkbox é a caixinha de seleção para alguma escolha feita pelo usuario-->
+            <input type="checkbox" name="inscricao" id="inscricao">
+            <label for="inscricao">deseja receber a minha latter?</label> <br>
+        
+            <br>
+            <!-- type submit adiciona um botão -->
+            <input type="submit" value="enviar mensagem">
+            
+            <input type="date">
+        
+        </form>
         <!-- a tag address serve para colocar os contatos-->
         <address>
             <!-- a teg 'a' serve para redirecionamento..     br é uma quebra de linha-->
-            email: <a href="mailto:joao@hgju.com">joao@hgju.com</a> <br>
+            email: <a href="mailto:joao@hgju.com">joao@hgju.com</a>
             tel: <a href="tel987654">987654</a>
         </address>
     </section>
